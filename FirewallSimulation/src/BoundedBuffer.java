@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
  *
  * This program implements the bounded buffer with semaphores.
  * Note that the use of count only serves to output whether
- * the buffer is empty of full.
+ * the buffer is empty or full.
  */
 public class BoundedBuffer implements Buffer {
     // initialize the buffer size
